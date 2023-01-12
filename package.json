@@ -1,0 +1,22 @@
+{
+  "name": "class-package",
+  "version": "1.0.0",
+  "description": "a package for class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"class package test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickolasram/classpackage.git"
+  },
+  "keywords": [
+    "class"
+  ],
+  "author": "Nickolas Ramirez <nickolasram@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickolasram/classpackage/issues"
+  },
+  "homepage": "https://github.com/nickolasram/classpackage#readme"
+}
