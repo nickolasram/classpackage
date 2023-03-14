@@ -6,7 +6,7 @@ const returnApartments = async() =>{
             headers: {
                 "Content-Type": "application/json",
                 "Access-Control-Request-Headers": "*",
-                "api-key": "LbDURdvoaYeDAFSfYAqUraCyVFVN89I8SNMxb5BEhrBUIeGJZfI2bqlJz3jAxchw"
+                "api-key": "myapikey"
             },
             body: {
                 "data-raw": {
