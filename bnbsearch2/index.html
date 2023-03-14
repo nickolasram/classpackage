@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper>*{
+            max-width:50%
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper" style="display: flex; flex-direction: column; max-width: 40vw; gap: 1em;">
+      <h1>BnB Search</h1>
+      <input type="text" name="property_type" id="property_type" placeholder="Property Type">
+      <input type="number" min="0" name="bedrooms" id="bedrooms" placeholder="Number of Bedrooms">
+      <input type="number" min="0" name="beds" id="beds" placeholder="Number of Beds">
+      <button id="bnbbtn" style="max-width:25%">find BnB</button>
+      <ul id="bnbspace"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="functions.mjs"></script>
+</body>
+</html>
