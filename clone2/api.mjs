@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import url from 'url';
 
-const uri = "mongodb+srv://nickstudent:nickstudent@cluster0.lxeqtet.mongodb.net/test"
+const uri = "mongodb+srv://NAME:PASS@cluster0.lxeqtet.mongodb.net/test"
 const client = new MongoClient(uri);
 
 const app = express();
@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.use(cors());
 
-app.get('/findOne', async (req,res) => {
+app.post('/findOne', async (req,res) => {
     let url_parts = url.parse(req.url, true);
     let nquery = url_parts.query;
     let query = {};
