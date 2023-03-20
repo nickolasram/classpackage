@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import url from 'url';
 
-const uri = "mongodb+srv://nickstudent:nickstudent@cluster0.lxeqtet.mongodb.net/test"
+const uri = "mongodb+srv://NAME:PASS@cluster0.lxeqtet.mongodb.net/test"
 const client = new MongoClient(uri);
 
 const app = express();
